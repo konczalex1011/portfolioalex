@@ -1,0 +1,206 @@
+
+
+
+/* Index html*/
+
+
+body{
+	font-size: 16px;
+	font-family: 'Roboto',sans-serif;
+	font-weight: 300;
+	background-color: #848282cc; 
+}
+
+*,*::before,*::after{
+	/*! box-sizing: :border-box; */
+	margin: 0;
+	padding:0;
+}
+img{
+	max-width: :100%;
+	border-radius: 0.7rem;
+
+}
+
+
+.Header_jobb{
+text-align: right;
+background-color: rgba(0,0,0,0.5);
+}
+.grid{
+	display:inline-grid;
+		 
+grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+box-sizing: border-box;
+grid-gap: 5%;
+margin: 3rem 15%;
+}
+.box{
+	background-color:#848282cc;
+	border-radius: 0.7rem;
+
+}
+
+.box h1{
+	font-size: 1.5rem;
+	letter-spacing: 2px;
+	text-align: center;
+	font-weight: 600;
+}
+.box h2{
+	font-weight: 400;
+	letter-spacing: 1.5px;
+	text-align: center;
+
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%
+
+}
+
+a{
+text-decoration: none;
+color: black;
+
+}
+a:link{
+	color: black;
+}
+
+p{
+	font-size: 1.5rem;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+
+
+
+.gomb
+{	
+
+ 
+text-align: center;
+text-decoration-color: black;
+	letter-spacing: 3px;
+	font-size: 0.8rem;
+	font-weight: bold;
+	color: #6b6b6b;
+	background-color: grey;
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	margin: .35rem .2rem;
+	border-radius: 7rem;
+	transition: .3s;
+	min-width: max-content;	 
+}	
+/* Index html*/
+/* Kapcsolat.html*/
+ 
+.box1{
+	text-align: center;
+	border-radius: 0.7rem;
+	
+}
+#kapcs{
+	padding-top: 15rem;
+	
+	border-radius: 1rem;
+}
+#szoveg{
+
+	background-color: #848282cc;
+	
+
+}
+
+
+/* Kepek.html */
+
+.kep_kartya .kep{
+	height: 10rem;
+	background-color: white;
+	text-align: center;
+}
+.kep_kartya .kep img{
+	height: 100%
+	width: 100%;
+	object-fit: contain;
+
+}
+.flex_racs{
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+}
+.kep_kartya{
+	height: 3rem;
+}
+
+.doboz{
+color: grey;
+text-align: center;
+padding-bottom: 4rem;
+background-color: grey;
+
+}
+.doboz3 img{
+ height: 100%
+ width: 100%;
+ object-fit: contain;
+}
+.doboz3{
+	display: inline-block;
+	width: 45%;
+	text-align: center;
+	vertical-align: top;
+	background-color:grey;
+	padding-right: 30px;
+	padding-top: 1.5rem;
+
+ 
+}
+.helyzet{
+	
+	margin: auto;
+	overflow: hidden;
+	max-width: 90%; 
+	
+}
+ .doboz h1{
+	font-weight: 500;
+	font-size: 2rem;
+	text-align: center;
+	color: black;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+
+/* Grafika.html */
+.doboz2 h1{
+	padding-top: 3rem;
+}
+.doboz2 p{
+	color: black;
+	padding: 1rem;
+	text-align: center;
+	margin-left: 25rem;
+	margin-right: 25rem;
+}
+.doboz2{
+	
+	text-align: center;
+	object-position: center;
+}
+.forras{
+	background-color: rgba(0,0,0,0.5);
+
+
+}
+.forras h1{
+	padding-top: 0;
+}
+
